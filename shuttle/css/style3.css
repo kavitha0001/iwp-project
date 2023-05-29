@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/* for modify.html, delete.html, addamount.html */
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Nunito', sans-serif;
+}
+
+body {
+ background: #BAD8F5;
+}
+
+.nav {
+ background-color: #e6f2ff;
+ padding: 1.1%;
+ color: #626AC5;
+ font-size: 16px;
+}
+
+.button1 {
+ border: none;
+ background-color: #BAD8F5;
+ border-radius: 5px;
+ padding: 8px 17px;
+ color: black;
+ font-size: 20px;
+ margin-right: 7px;
+}
+
+button.button1:hover {
+ box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.74);
+ cursor: pointer;
+}
+
+button.button1:hover {
+ box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.74);
+ cursor: pointer;
+}
+
+.parent {
+ display: flex;
+ position: relative;
+}
+
+.container1 {
+ background-color: #4059ad;
+ width: 30%;
+ text-align: center;
+ margin: 30px 50px;
+ padding: 100px 50px;
+}
+
+.container1 .border1 p {
+ font-size: 20px;
+}
+
+.border1 {
+ background-color: #CA895F;
+ position: absolute;
+ top: 30px;
+ left: 50px;
+ width: 30%;
+ padding: 5px;
+}
+
+.container2 {
+ float: right;
+ width: 60%;
+ text-align: center;
+ background-color: #646FD4;
+ margin: 30px 20px;
+ padding: 100px 50px;
+}
+
+.container2 .border2 p {
+ font-size: 25px;
+}
+
+.border2 {
+ color: navy;
+ background-color: #dbad6a;
+ position: absolute;
+ top: 30px;
+ left: 581px;
+ width: 60%;
+ padding: 10px;
+}
+
+.container1 img {
+ width: 100px;
+ margin: auto;
+}
+
+.container1 .call {
+ padding: 10px 20px;
+ background-color: #CA895F;
+ border-radius: 10px;
+ border: 2px solid black;
+ font-weight: bolder;
+ font-size: 15px;
+ margin: 4px;
+}
+
+.container1 .call:hover {
+ background-color: #e6f2ffbd;
+ cursor: pointer;
+}
+
+/* for text inside container 1 and 2 */
+
+.container1 p {
+ font-size: 17px;
+ font-weight: bolder;
+ margin: 20px;
+}
+
+/* content inside modify */
+
+.modi{
+ font-size: 15px;
+ display: flex;
+}
+
+.modi input{
+ padding: 10px 30px;
+ border-radius: 3px;
+ border: 2px solid black;
+ background-color: #CA895F;
+}
+
+.modi .modi1, .modi2, .modi3{
+ background-color: #dbad6a;
+ margin: 30px 15px;
+ padding: 15px;
+ border: 3px solid navy;
+ border-radius: 5px;
+ width: 250px;
+}
+
+input:hover{
+ background: transparent;
+}
+
+.modi .modi1, .modi2, .modi3 h2{
+ color: navy;
+}
+
+/* content inside delete */
+.delete{
+ font-size: 20px;
+}
+
+.delete button{
+ padding: 10px 70px;
+ color: white;
+ font-size: 25px;
+ background: navy;
+ border: 2px solid navy;
+ border-radius: 5px;
+}
+
+.delete button:hover{
+ background: transparent;
+ border: 2px solid navy;
+ cursor: pointer;
+ color: black;
+}
+
+/* add amount */
+.add{
+ display: flex;
+}
+
+.add h2{
+ color: black;
+}
+
+.add .img {
+ background-color: #ffffff79;
+ padding: 50px;
+ border-radius: 50%;
+}
+
+.add .img:hover{
+ background-color: #e6f2ffbd;
+}
+
+/* shuttles available */
+table {
+ border-collapse: separate;
+ border-spacing: 0 10px;
+ background-color: #CA895F;
+}
+
+table tr td {
+ padding: 10px !important;
+ background-color: #dbad6a;
+ width: 500px;
+ font-size: 15px;
+}
+
+/* ride history */
+.history {
+ padding: 10px 20px;
+ background-color: #CA895F;
+ border-radius: 10px;
+ border: 2px solid black;
+ font-weight: bolder;
+ font-size: 15px;
+ margin: 4px;
+}
+
+.history:hover {
+ background-color: #e6f2ffbd;
+ cursor: pointer;
+}
+
+.history a{
+ text-decoration: none;
+ color: black;
+}
+
+/* tracking location */
+.location img{
+ width: 60%;
+}

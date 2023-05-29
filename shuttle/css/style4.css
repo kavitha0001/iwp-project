@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/* payment.html */
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Nunito', sans-serif;
+}
+
+.bottom{
+ display: flex;
+ position: relative;
+}
+
+.credit, .debit, .banking{
+ background-color: aliceblue;
+ width: 30%;
+ height: 600px;
+ text-align: center;
+ margin: 30px 50px;
+ padding: 100px 50px;
+}
+
+.credit, .debit, .banking input, select{
+ padding: 3px 6px;
+}
+
+.credit, .debit, .banking label{
+ color: crimson;
+ font-size: 15px;
+}
+
+/* call shuttle */
+
+.parent{
+  display: flex;
+  position: relative;
+}
+
+.left{
+  margin: 30px 20px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 30px 100px;
+  width: 40%;
+}
+
+.left input{
+padding: 2px 50px;
+border: none;
+border: 2px solid aliceblue;
+border-radius: 3px;
+}
+
+.left select {
+  padding: 2px 50px;
+  border: none;
+  border: 2px solid aliceblue;
+  border-radius: 3px;
+}
+
+.left label{
+ color: navy;
+ font-size: 20px;
+}
+
+.left #micro, #mini{
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+}
+
+.left .pay{
+  border: none;
+  background-color: #f9bf58;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+}
+
+button.pay:hover{
+  cursor: pointer;
+  background-color: #626AC5;
+}
+
+.right{
+  float: right;
+  width: 60%;
+  text-align: center;
+  background-color: lightblue;
+  margin: 30px 20px;
+  padding: 30px 50px;
+}
+
+.right h2{
+  color: navy;
+}
+
+.right p{
+  color: black;
+  font-size: 15px;
+}
+
+/* update shuttle */
+
+.centre {
+  margin: 50px 400px;
+  background-color: skyblue;
+  text-align: center;
+  padding: 30px 100px;
+}
+
+.centre input {
+  padding: 2px 50px;
+  border: none;
+  border: 2px solid aliceblue;
+  border-radius: 3px;
+}
+
+.centre label {
+  color: navy;
+  font-size: 20px;
+}
+
+.centre #micro,
+#mini {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+}
+
+.centre .pay {
+  border: none;
+  background-color: #f9bf58;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+}
+
+button.pay:hover {
+  cursor: pointer;
+  background-color: #626AC5;
+}
+
+.pay {
+  border: none;
+  background-color: #f9bf58;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+}
